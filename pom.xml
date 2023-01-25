@@ -168,16 +168,7 @@
                 <version>2.22.0</version>
                 <executions>
                     <execution>
-                        <configuration>
-                            <includes>
-                                <include>**/*Runner.java</include>
-                                <include>**/PruebaTest.java</include>
-                            </includes>
-                            <forkCount>2</forkCount>
-                            <reuseForks>true</reuseForks>
-                            <parallel>methods</parallel>
-                            <threadCount>8</threadCount>
-                        </configuration>
+
                         <goals>
                             <goal>integration-test</goal>
                             <goal>verify</goal>
