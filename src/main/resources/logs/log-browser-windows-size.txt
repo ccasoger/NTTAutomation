@@ -1,0 +1,3 @@
+Windows size "{0}" not supported.
+    - If the "webdriver.size" property is not declared, the default will be [MAXIMIZE].
+    - Supported values: [MAXIMIZE , FULLSCREEN]

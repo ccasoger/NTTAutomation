@@ -1,0 +1,7 @@
+
+Browser "{0}" is not supported.
+Allowed values:
+    - chrome
+    - firefox
+    - safari
+    - edge (dev)

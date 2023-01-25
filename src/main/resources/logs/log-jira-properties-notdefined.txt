@@ -1,0 +1,11 @@
+
+Propiedades necesarias para integrar Jira Xray no definidas.
+Si la propiedad 'jxray' es igual a 'true', es necesario declarar en el archivo 'application.properties' las siguientes propiedades:
+...
+
+jxray.integration=true
+jxray.host=https://xray.cloud.xpand-it.com
+jxray.client.id=<clientId de autentificacion>
+jxray.client.secret=<clientSecret de autentificacion>
+
+...

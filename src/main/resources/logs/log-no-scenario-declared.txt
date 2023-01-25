@@ -1,0 +1,10 @@
+El objeto 'Scenario' no ha sido declarado en la clase 'glue' o 'stepDefinition'.
+Agregar el siguiente codigo en las clase glue o stepDefinition:
+
+@Autowired
+private ManageScenario manageScenario;
+...
+@Before
+public void beforeScenario(Scenario scenario) {
+    manageScenario.setScenario(scenario);
+}

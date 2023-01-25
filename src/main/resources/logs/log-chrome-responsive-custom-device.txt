@@ -1,0 +1,9 @@
+...
+
+Execution on responsive >>>
+- Width: {0},
+- Height: {1},
+- PixelRatio: {2},
+- Touch: {3}.
+
+...

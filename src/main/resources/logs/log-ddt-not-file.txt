@@ -1,0 +1,12 @@
+The DDT file doesn't exist or is NOT_DEFINED. Please set the file location into 'application' properties >>>
+
+application.yml
+...
+ddt:
+  file: path/ddt/file
+
+------------------
+
+application.properties
+...
+ddt.file= path/ddt/file

@@ -1,0 +1,38 @@
+#spring.profiles.active:
+#
+# Look for all properties in WebDriverProperties.md file.
+#
+# $mvn verify -Dspring.profiles.active=chrome
+# $mvn verify -Dwebdriver.browser=chrome
+#
+###############################
+### WebDriver Configuration ###
+###############################
+webdriver:
+  browser: chrome #chrome, safari, firefox, edge
+  #only_For_Local_Test
+  #path: /Users/pmendozz/Documents/NTTData/drivers/chromedriver
+
+###########################################################################
+### To use JDBC configuration, comment 'autoconfigure.exclude' property ###
+###########################################################################
+spring:
+  dataSource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:54322/xxxx
+    username: xxxx
+    password: xxxx
+
+###################
+### URL - SITES ###
+###################
+url:
+  google: https://www.google.com/
+  settings: chrome://settings/
+  site: http://default-environmet/uri
+
+###################
+### DATA DRIVEN ###
+###################
+ddt:
+  file: /Users/pmendozz/Documents/Pichincha/app/data/DDT_app_pichincha.xlsx
